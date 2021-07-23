@@ -7,6 +7,7 @@ export enum ShoppingActionTypes {
 
 export class AddItemAction implements Action {
   readonly type = ShoppingActionTypes.ADD_ITEM;
+
   constructor(public payload: ShoppingItem) {}
 }
 
